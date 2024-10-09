@@ -1,0 +1,88 @@
+.img1{
+    width: 58px;
+    height:58px;
+    margin-top: 44px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.titlu{
+    display: flex;
+    gap:3px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.marimea-conteaza{
+    font-size: 54px;
+    font-family:fantasy;
+    letter-spacing: 8px;
+    color:rgb(240, 115, 115);
+}
+.wa{
+    background-color: rgb(19, 111, 231);
+    height: 140px;
+    width:130px;
+    border-radius: 16px;
+    background-image: url('./source/tom3.png');
+}
+.wa:hover{
+    cursor: pointer;
+    background-color: bisque;
+    transform: scale(1.2);
+}
+.pian{
+    display: flex;
+    flex-flow: row wrap;
+    gap:12px;
+    flex:0 3 0;
+    justify-content: center;
+}
+.clapete{
+    font-size: 54px;
+    margin-left: 46px;
+   color: rgb(96, 245, 10); 
+}
+body{
+    background-color: rgb(3, 3, 84);
+}
+footer{
+    display: flex;
+    position:absolute;
+    margin-top: 39vh;
+   margin-left:39%;
+    justify-content: center;
+}
+footer>p{
+    color: burlywood;
+}
+.culori{
+    display: flex;
+    justify-content: center;
+    gap:12px;
+}
+.rosuu{
+    width: 18px;
+    height:18px;
+    border-radius: 12px;
+    background-color: red;
+}
+.galbenn{
+    width: 18px;
+    height:18px;
+    border-radius: 12px;
+    background-color: rgb(0, 255, 17);
+}
+.verdee{
+    width: 18px;
+    height:18px;
+    border-radius: 12px;
+    background-color: rgb(143, 136, 50);
+}
+.portocaliuu{
+    width: 18px;
+    height:18px;
+    border-radius: 12px;
+    background-color: rgb(236, 40, 18);   
+}
